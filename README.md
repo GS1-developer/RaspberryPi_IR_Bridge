@@ -8,3 +8,6 @@ Software: Python
 
 Development plattform:
 Visual Studio Code
+
+Target plattform:
+Raspberry Pi
