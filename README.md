@@ -13,3 +13,7 @@ Visual Studio Code
 
 Target plattform:
 Raspberry Pi
+
+## Dwonload
+git command to download on target is following:
+git clone ...
