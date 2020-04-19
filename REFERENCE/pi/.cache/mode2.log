@@ -1,0 +1,9 @@
+Apr  7 11:38:26.757381 raspberrypi mode2: Warning: ------------------------ Log re-opened ----------------------------
+Apr  7 11:38:26.758050 raspberrypi mode2: Debug: mode2:  Opening log, level: Debug
+Apr  7 11:38:26.759582 raspberrypi mode2: Info: Opening device: /dev/lirc0
+Apr  7 11:38:26.759892 raspberrypi mode2: Info: Initial device: /dev/lirc0
+Apr  7 11:38:26.760429 raspberrypi mode2: Debug: No device found: /sys/class/rc/rc1/lirc0
+Apr  7 11:38:26.760888 raspberrypi mode2: Debug: Cannot open protocol file: /sys/class/rc/rc0/protocols for read
+Apr  7 11:38:26.761375 raspberrypi mode2: Debug: No device found: /sys/class/rc/rc1/lirc0
+Apr  7 11:38:26.761805 raspberrypi mode2: Debug: Cannot open protocol file: /sys/class/rc/rc0/protocols for read
+Apr  7 11:38:26.762029 raspberrypi mode2: Info: Cannot configure the rc device for /dev/lirc0

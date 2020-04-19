@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+   <script type="text/javascript">
+   function Init()
+   {
+      setTimeout("location.href=location.href",10000);
+   }
+   </script> 
+   <head>
+      <title>{{ title }}</title>
+      <link rel="stylesheet" href="../static/style.css/">
+   </head>
+   <body onload="Init();">
+      <h1>RaspberryPi Template</h1>
+      <h2>Raspotify - PionnerPi - Remote</h2>
+      <h2>The date and time on the server is: {{ time }}</h2>
+      <h2>Comandi</h2>
+      <p>Lista dei comandi disponibili:</p>
+      <button type="submit" onClick="VolumeUp()">VolumeUp</button>
+      <button type="submit" onClick="VolumeDown()">VolumeDown</button>
+      <button type="submit" onClick="SetSourceNetwork">Source: Network</button>
+      <button type="submit" onClick="window.location.href = window.location.href">Refresh Page</button>
+      </p>
+   </body>
+</html>

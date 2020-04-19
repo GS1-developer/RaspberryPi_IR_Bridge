@@ -1,0 +1,11 @@
+Apr  7 10:39:06.919470 raspberrypi irrecord: Warning: ------------------------ Log re-opened ----------------------------
+Apr  7 10:39:06.920128 raspberrypi irrecord: Info: irrecord:  Opening log, level: Info
+Apr  7 10:39:06.921170 raspberrypi irrecord: Info: Initial device: /dev/lirc0
+Apr  7 10:39:06.922421 raspberrypi irrecord: Info: Cannot configure the rc device for /dev/lirc0
+Apr  7 10:43:40.114146 raspberrypi irrecord: Info: Cannot configure the rc device for /dev/lirc0
+Apr  7 10:43:41.129962 raspberrypi irrecord: Info: Cannot configure the rc device for /dev/lirc0
+Apr  7 10:44:22.664379 raspberrypi irrecord: Info: Cannot configure the rc device for /dev/lirc0
+Apr  7 10:44:23.733949 raspberrypi irrecord: Info: Cannot configure the rc device for /dev/lirc0
+Apr  7 10:44:47.399995 raspberrypi irrecord: Info: Cannot configure the rc device for /dev/lirc0
+Apr  7 10:44:47.400818 raspberrypi irrecord: Info: Using remote: PIONEER_AXD7644.
+Apr  7 10:44:47.401404 raspberrypi irrecord: Notice: PIONEER_AXD7644.lircd.conf: PIONEER_AXD7644: Multiple values for same code: KEY_VOLUMEDOWN

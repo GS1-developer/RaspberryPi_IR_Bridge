@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+   <script type="text/javascript">
+   function Init()
+   {
+      setTimeout("location.href=location.href",10000);
+   }
+   </script> 
+   <head>
+      <title>{{ title }}</title>
+      <link rel="stylesheet" href="../static/style.css/">
+   </head>
+   <body onload="Init();">
+      <h1>RaspberryPi Template</h1>
+      <h2>Raspotify - PionnerPi</h2>
+      <h2 id="#here">The date and time on the server is: {{ time }}</h2>
+      <h2>Link</h2>
+      <p>
+         <a href='/PioneerPi'>PioneerPi</a>
+      </p>
+      <p>
+         <a href='/PioneerPiRemote'>PioneerPi Remote</a>
+         <button type="submit" onClick="window.location.href = window.location.href">RefreshRefresh</button>
+      </p>
+   </body>
+</html>
