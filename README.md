@@ -6,5 +6,5 @@ Hardware:Raspberry PI
 
 Software: Python
 
-PDevelopment plattform:
+Development plattform:
 Visual Studio Code
