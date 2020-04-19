@@ -1,0 +1,2 @@
+# RaspberryPi_IR_Bridge
+Raspberry PI IR bridge between SONY RMT-TX100D to PIONNER A-30 (AXD7644)
