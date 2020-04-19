@@ -7,4 +7,4 @@ Hardware:Raspberry PI
 Software: Python
 
 PDevelopment plattform:
-Visual Sutido Code
+Visual Studio Code
