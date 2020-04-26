@@ -12,7 +12,13 @@ Add the following lines in /boot/config.txt
 dtoverlay=gpio-ir,gpio_pin=26
 dtoverlay=gpio-ir-tx,gpio_pin=14
 
-Purtroppo semrba esserci il problame che non legge da Lirc0m asolo da lirc 1
+Purtroppo semrba esserci il problema che non legge da lirc0 ma solo da lirc 1
+# Test that you can get IR data
+$ sudo systemctl stop lircd.service
+$ sudo systemctl stop lircd.socket
+$ sudo mode2 --driver default --device /dev/lirc0
+
+
 
 ## Configurazione raspberry Tentativo 2
 Seguiamo le istruzioni qui:
